@@ -19,7 +19,7 @@ func (properties *DataSourceProperties) GetPrefix() string {
 type DataSourceConfiguration struct {
 }
 
-func NewDataSourceAutoConfiguration() DataSourceConfiguration {
+func NewDataSourceAConfiguration() DataSourceConfiguration {
 	return DataSourceConfiguration{}
 }
 

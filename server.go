@@ -17,7 +17,7 @@ func (properties ServerProperties) GetPrefix() string {
 type ServerConfiguration struct {
 }
 
-func NewServerAutoConfiguration() ServerConfiguration {
+func NewServerConfiguration() ServerConfiguration {
 	return ServerConfiguration{}
 }
 
