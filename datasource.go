@@ -1,8 +1,8 @@
 package configure
 
 import (
-	context "github.com/Rollcomp/procyon-context"
 	"github.com/codnect/go-one"
+	context "github.com/procyon-projects/procyon-context"
 )
 
 type DataSourceProperties struct {
