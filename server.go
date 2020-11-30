@@ -9,6 +9,6 @@ func newServerProperties() *WebServerProperties {
 	return &WebServerProperties{}
 }
 
-func (properties *WebServerProperties) GetPrefix() string {
+func (properties *WebServerProperties) GetConfigurationPrefix() string {
 	return "server"
 }

@@ -11,6 +11,6 @@ func newDataSourceProperties() *DataSourceProperties {
 	return &DataSourceProperties{}
 }
 
-func (properties *DataSourceProperties) GetPrefix() string {
+func (properties *DataSourceProperties) GetConfigurationPrefix() string {
 	return "procyon.datasource"
 }
