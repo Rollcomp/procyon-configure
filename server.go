@@ -1,8 +1,9 @@
 package configure
 
 type WebServerProperties struct {
-	Port              int `yaml:"port" json:"port" default:"8080"`
-	ConnectionTimeout int `yaml:"connection-timeout" json:"connection-timeout"`
+	Port            uint   `yaml:"port" json:"port" default:"8080"`
+	Shutdown        string `yaml:"shutdown" json:"shutdown" default:"immediate"`
+	ShutdownTimeout uint   `yaml:"shutdown.timeout" json:"shutdown.timeout" default:"0"`
 }
 
 func newServerProperties() *WebServerProperties {
