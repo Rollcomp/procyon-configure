@@ -7,4 +7,6 @@ func init() {
 	core.Register(newServerProperties)
 	/* data source */
 	core.Register(newDataSourceProperties)
+	/* logging */
+	core.Register(newLoggingProperties)
 }
