@@ -1,10 +1,9 @@
 package configure
 
 type DataSourceProperties struct {
-	DriverName   string `yaml:"driver-name" json:"driver-name"`
-	Username     string `yaml:"username" json:"username"`
-	Password     string `yaml:"password" json:"password"`
-	DatabaseName string `yaml:"database-name" json:"database-name"`
+	URL      string `yaml:"url" json:"url"`
+	Username string `yaml:"username" json:"username"`
+	Password string `yaml:"password" json:"password"`
 }
 
 func newDataSourceProperties() *DataSourceProperties {
